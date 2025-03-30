@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: manrope;
+    src: url(../fonts/Manrope-Regular.ttf);
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+.logo-img{
+    width: 192px;
+    height: 40px;
+}
+.links a{
+    position: relative;
+    margin-right: 30px;
+    color: #1c1c1c;
+    font-weight: 600;
+    font-family: manrope;
+}
+.links a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: black;
+    width: 0%;
+    left: 0px;
+    bottom: -2px;
+    transition: 1.2s;
+}
+.links a:hover::after{
+    width: 100%;
+}
+.links
+.az-count{
+    border: 1px solid;
+    border-radius: 40%;
+    padding: 5px;
+}
+.elaqe-btn{
+    background-color: rgb(252 174 30);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 1.2s;
+    margin-right: 20px;
+}
+.elaqe-btn:hover{
+    background-color: #fff;
+    border: 1px solid;
+}
+.yaratamaga-basla-etiket{
+    color: #FCAE1E;
+    font-size: 16px;
+}
+.jetcshool-title{
+    width: 550px;
+    font-size: 72px;
+    font-family: manrope;
+}
+.jetcshool-navbar-desc, .jetcshool-navbar-desc2{
+    width: 550px;
+    color: #a8a8a8;
+}
+.jetcshool-navbar-desc{
+    padding: 30px 0px;
+}
+.muraciet-btn{
+    display: inline-block;
+    background-color: #FCAE1E;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.yaratmag-box{
+    margin-top: 0px;
+}
+.yaratmaga-boxs{
+    display: flex;
+    align-items: center;
+}
+.background-navbar-img{
+    margin-left: -20px;
+}
+.jetschool-main-title{
+    color: #1c1c1c;
+}
