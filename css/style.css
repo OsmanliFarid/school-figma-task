@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: manrope;
 }
 @font-face {
     font-family: manrope;
@@ -21,6 +22,10 @@
 .logo-img{
     width: 192px;
     height: 40px;
+}
+.links{
+    display: flex;
+    align-items: center;
 }
 .links a{
     position: relative;
@@ -42,23 +47,10 @@
 .links a:hover::after{
     width: 100%;
 }
-.links
 .az-count{
     border: 1px solid;
     border-radius: 40%;
     padding: 5px;
-}
-.elaqe-btn{
-    background-color: rgb(252 174 30);
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 30px;
-    transition: 1.2s;
-    margin-right: 20px;
-}
-.elaqe-btn:hover{
-    background-color: #fff;
-    border: 1px solid;
 }
 .yaratamaga-basla-etiket{
     color: #FCAE1E;
@@ -90,10 +82,211 @@
 .yaratmaga-boxs{
     display: flex;
     align-items: center;
+    margin-top: 100px;
+}
+.background-img{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 266.5px 32px 335px 266.5px;
+    background: linear-gradient(81.67deg,rgba(252,174,30,.39) 12.42%,rgba(252,174,30,.695) 42.61%,#fcae1e 62.24%,rgba(252,174,30,.848) 72.81%);
+    margin-left: 50px;
 }
 .background-navbar-img{
-    margin-left: -20px;
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    right: 0;
+    top: 30px;
+    left: 50px;
+}
+.img-call{
+    width: 30.44px;
+    height: 30.44px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.elaqe-btn-boxs{
+    display: flex;
+    align-items: center;
+    background-color: #FCAE1E;
+    padding: 5px 20px;
+    gap: 5px;
+    border-radius: 30px;
+}
+.call-title{
+    color: #fff !important;
 }
 .jetschool-main-title{
     color: #1c1c1c;
+    text-align: center;
+    font-size: 36px;
+    font-family: manrope;
+    width: 504px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin: auto;
+    margin-top: 50px;
+}
+.jetschool-main-title2{
+    color: #1c1c1c;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
+.jetschool-cart-box{
+    background-color: rgb(254 247 235);
+    width: 462px;
+    height: 275.2px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.start-cart-box-title-box{
+    display: flex;
+    justify-content: end;
+    margin: 15px 25px 15px 15px;
+}
+.start-cart-box-title{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-title{
+    font-family: 14px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+.school-img{
+    width: 20px;
+    height: 15.6px;
+}
+.information-box-box{
+    background-color: #FCAE1E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.school-img2{
+    width: 30px;
+    height: 20.6px;
+}
+.information-box{
+    display: flex;
+    align-items: center;
+}
+.information-title{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.date-boxs{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+    height: 80px;
+    border-radius: 30px;
+    border: 1px solid #FCAE1E;
+    width: 414px;
+    margin-inline: auto;
+}
+.hour-image{
+    width: 15.5px;
+    height: 15.5px;
+    margin-left: 15px;
+}
+.date-box{
+    margin-left: 15px;
+    color: #6b7280;
+}
+.date-title{
+    font-size: 14px;
+}
+.jetschool-cart-box2{
+    background-color: rgb(254 247 235);
+    width: 462px;
+    height: 275.2px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.start-cart-box-title-box2{
+    display: flex;
+    justify-content: end;
+    margin: 15px 25px 15px 15px;
+}
+.start-cart-box-title2{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-box-title2{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-title2{
+    font-family: 14px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+.school-img2{
+    width: 20px;
+    height: 15.6px;
+}
+.information-box-box2{
+    background-color: #FCAE1E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.school-img3{
+    width: 30px;
+    height: 20.6px;
+}
+.information-box2{
+    display: flex;
+    align-items: center;
+}
+.information-title2{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.date-boxs2{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+    height: 80px;
+    border-radius: 30px;
+    border: 1px solid #FCAE1E;
+    width: 414px;
+    margin-inline: auto;
+}
+.hour-image2{
+    width: 15.5px;
+    height: 15.5px;
+    margin-left: 15px;
+}
+.date-box2{
+    margin-left: 15px;
+    color: #6b7280;
+}
+.date-title2{
+    font-size: 14px;
 }
