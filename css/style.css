@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: manrope;
+    list-style-type: none;
 }
 @font-face {
     font-family: manrope;
@@ -48,9 +49,13 @@
     width: 100%;
 }
 .az-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 1px solid;
-    border-radius: 40%;
-    padding: 5px;
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
 }
 .yaratamaga-basla-etiket{
     color: #FCAE1E;
@@ -90,7 +95,14 @@
     height: 450px;
     border-radius: 266.5px 32px 335px 266.5px;
     background: linear-gradient(81.67deg,rgba(252,174,30,.39) 12.42%,rgba(252,174,30,.695) 42.61%,#fcae1e 62.24%,rgba(252,174,30,.848) 72.81%);
-    margin-left: 50px;
+    margin-left: 170px;
+    transition: 1.03s;
+}
+.background-img:hover{
+    transform: scale(1.02);
+}
+.background-navbar-img:hover{
+    transform: scale(1.05);
 }
 .background-navbar-img{
     position: absolute;
@@ -99,6 +111,7 @@
     right: 0;
     top: 30px;
     left: 50px;
+    transition: 0.2s ease;
 }
 .img-call{
     width: 30.44px;
@@ -134,9 +147,14 @@
     margin-top: 20px;
     text-align: center;
 }
+.jetschool-cart-boxs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: -90px;
+}
 .jetschool-cart-box{
     background-color: rgb(254 247 235);
-    width: 462px;
+    width: 588.8px;
     height: 275.2px;
     border: 1px solid #FCAE1E;
     border-radius: 30px;
@@ -164,17 +182,11 @@
 }
 .school-img{
     width: 20px;
-    height: 15.6px;
-}
-.information-box-box{
-    background-color: #FCAE1E;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 25px;
+    height: 20.6px;
 }
 .school-img2{
-    width: 30px;
-    height: 20.6px;
+    width: 30px !important;
+    height: 20.6px !important;
 }
 .information-box{
     display: flex;
@@ -192,7 +204,7 @@
     height: 80px;
     border-radius: 30px;
     border: 1px solid #FCAE1E;
-    width: 414px;
+    width: 540.8px;
     margin-inline: auto;
 }
 .hour-image{
@@ -209,7 +221,7 @@
 }
 .jetschool-cart-box2{
     background-color: rgb(254 247 235);
-    width: 462px;
+    width: 588.8px;
     height: 275.2px;
     border: 1px solid #FCAE1E;
     border-radius: 30px;
@@ -249,12 +261,7 @@
     width: 20px;
     height: 15.6px;
 }
-.information-box-box2{
-    background-color: #FCAE1E;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 25px;
-}
+
 .school-img3{
     width: 30px;
     height: 20.6px;
@@ -275,7 +282,7 @@
     height: 80px;
     border-radius: 30px;
     border: 1px solid #FCAE1E;
-    width: 414px;
+    width: 540.8px;
     margin-inline: auto;
 }
 .hour-image2{
@@ -289,4 +296,434 @@
 }
 .date-title2{
     font-size: 14px;
+}
+.jetschool-cart-box3{
+    background-color: rgb(254 247 235);
+    width: 588.8px;
+    height: 275.2px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.start-cart-box-title-box3{
+    display: flex;
+    justify-content: end;
+    margin: 15px 25px 15px 15px;
+}
+.start-cart-box-title3{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-box-title3{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-title3{
+    font-family: 14px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+.school-img4{
+    width: 20px;
+    height: 15.6px;
+}
+.school-img5{
+    width: 30px;
+    height: 20.6px;
+}
+.information-box3{
+    display: flex;
+    align-items: center;
+}
+.information-title3{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.date-boxs3{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+    height: 80px;
+    border-radius: 30px;
+    border: 1px solid #FCAE1E;
+    width: 540.8px;
+    margin-inline: auto;
+}
+.hour-image3{
+    width: 15.5px;
+    height: 15.5px;
+    margin-left: 15px;
+}
+.date-box3{
+    margin-left: 15px;
+    color: #6b7280;
+}
+.date-title5{
+    font-size: 14px;
+}
+.date-title3{
+    font-size: 14px;
+}
+.date-title4{
+    font-size: 14px;
+}
+.date-title6{
+    font-size: 14px;
+}
+.jetschool-cart-box4{
+    background-color: rgb(254 247 235);
+    width: 588.8px;
+    height: 275.2px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.start-cart-box-title-box4{
+    display: flex;
+    justify-content: end;
+    margin: 15px 25px 15px 15px;
+}
+.start-cart-box-title4{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-box-title4{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 116px;
+    text-align: center;
+    padding: 5px 20px;
+    gap: 5px;
+}
+.start-cart-title4{
+    font-family: 14px;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+.school-img6{
+    width: 20px;
+    height: 15.6px;
+}
+.school-img7{
+    width: 30px;
+    height: 20.6px;
+}
+.information-box4{
+    display: flex;
+    align-items: center;
+}
+.information-title4{
+    margin-left: 15px;
+    font-weight: 700;
+}
+.date-boxs4{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 50px;
+    height: 80px;
+    border-radius: 30px;
+    border: 1px solid #FCAE1E;
+    width: 540.8px;
+    margin-inline: auto;
+}
+.hour-image4{
+    width: 15.5px;
+    height: 15.5px;
+    margin-left: 15px;
+}
+.date-box4{
+    margin-left: 15px;
+    color: #6b7280;
+}
+.date-title7{
+    font-size: 14px;
+}
+.date-title8{
+    font-size: 14px;
+}
+.information-box-box, .information-box-box2, .information-box-box3, .information-box-box4{
+    background-color: #FCAE1E;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+.information-box-box{
+    display: flex;
+    width: 50px;
+    height: 45.4px;
+    padding-top: -20px;
+}
+.main-differece-title{
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 700;
+    line-height: 1.3px;
+    font-size: 36px;
+}
+.main-difference-desc-title{
+    margin-top: 40px;
+    text-align: center;
+    line-height: 1.3px;
+}
+.difference-boxs{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 50px;
+    row-gap: 20px;
+}
+.difference-box{
+    width: 1190px;
+    height: 155.6px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+}
+.interaktiv-box-title{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.interaktiv-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCAE1E;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.difference-box-desc{
+    width: 1109px;
+    margin-left: 90px;
+}
+.interaktiv-title{
+    font-weight: 700;
+}
+.difference-box2{
+    width: 1190px;
+    height: 155.6px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+}
+.interaktiv-box-title2{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.interaktiv-number2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCAE1E;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.difference-box-desc2{
+    width: 1109px;
+    margin-left: 90px;
+}
+.interaktiv-title2{
+    font-weight: 700;
+}
+.difference-box3{
+    width: 1190px;
+    height: 155.6px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+}
+.interaktiv-box-title3{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.interaktiv-number3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCAE1E;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.difference-box-desc3{
+    width: 1109px;
+    margin-left: 90px;
+}
+.interaktiv-title3{
+    font-weight: 700;
+}
+.difference-box4{
+    width: 1190px;
+    height: 155.6px;
+    border: 1px solid #FCAE1E;
+    border-radius: 30px;
+}
+.interaktiv-box-title4{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    gap: 20px;
+}
+.interaktiv-number4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCAE1E;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.difference-box-desc4{
+    width: 1109px;
+    margin-left: 90px;
+}
+.interaktiv-title4{
+    font-weight: 700;
+}
+.student-lahiye-title{
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
+.student-lahiye-desc{
+    margin-top: 20px;
+    width: 604px;
+    margin-inline: auto;
+    text-align: center;
+    font-size: 16px;
+}
+.student-lahiye-box iframe{
+    width: 386.66px;
+    height: 327px;
+    border-radius: 30px;
+    
+}
+.student-lahiye-box2 iframe{
+    width: 386.66px;
+    height: 327px;
+    border-radius: 30px;
+    
+}
+.student-lahiye-box3 iframe{
+    width: 386.66px;
+    height: 327px;
+    border-radius: 30px;
+    
+}
+.student-lahiye-boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 20px;
+    margin-top: 50px;
+}
+.student-lahiye-btn{
+    color: #fff;
+    background-color: #FCAE1E;
+    justify-content: center;
+    padding: 12px 40px;
+    border-radius: 20px;
+    transition: 1.2s;
+    border: 1px solid #FCAE1E;
+}
+.student-lahiye-btn:hover{
+     background-color: #fff;
+     
+     color: #FCAE1E;
+}
+.student-lahiye-btn-box{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 0px 0px;
+}
+.main-lesson-title{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 80px;
+    font-weight: 700;
+}
+.main-lesson-desc{
+    text-align: center;
+    width: 604px;
+    margin-top: 20px;
+    margin-inline: auto;
+}
+.main-lesson-boxs{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 50px;
+}
+.main-lesson-box{
+    background: url("https://api.jetschool.az/uploads/gallery/WhatsApp%20Image%202025-01-22%20at%2014.09.49%20(1)-1737543236749.webp") no-repeat center;
+    background-size: cover;
+    width: 284px;
+    height: 250px;
+    border-radius: 20px;
+}
+.main-lesson-box2{
+    background: url("https://api.jetschool.az/uploads/gallery/IMG_3882-1735048464424.webp") no-repeat center;
+    background-size: cover;
+    width: 284px;
+    height: 250px;
+    border-radius: 20px;
+}
+.main-lesson-box3{
+    background: url("https://api.jetschool.az/uploads/gallery/IMG_1409-1737016232194.webp") no-repeat center;
+    background-size: cover;
+    width: 284px;
+    height: 250px;
+    border-radius: 20px;
+}
+.main-lesson-box4{
+    background: url("https://api.jetschool.az/uploads/gallery/WhatsApp%20Image%202025-01-21%20at%2017.48.45-1737543487554.webp") no-repeat center;
+    background-size: cover;
+    width: 284px;
+    height: 250px;
+    border-radius: 20px;
+}
+.footer-background{
+    background-color: #FCAE1E;
+    height: 600px;
+    margin-top: 70px;
+}
+.footer-desc-box ul li:nth-child(2) img{
+    width: 20px;
+    height: 20px;
+}
+.footer-desc-box ul li:nth-child(3) img{
+    width: 20px;
+    height: 20px;
+}
+.footer-desc-box ul li:nth-child(4) img{
+    width: 20px;
+    height: 20px;
 }
