@@ -712,18 +712,148 @@
 }
 .footer-background{
     background-color: #FCAE1E;
-    height: 600px;
+    height: 630px;
     margin-top: 70px;
 }
-.footer-desc-box ul li:nth-child(2) img{
-    width: 20px;
-    height: 20px;
+.footer-img{
+    width: 25px;
+    height: 25px;
 }
-.footer-desc-box ul li:nth-child(3) img{
-    width: 20px;
-    height: 20px;
+.location-box a{
+    display: flex;
+    align-items: center;
 }
-.footer-desc-box ul li:nth-child(4) img{
-    width: 20px;
-    height: 20px;
+.footer-img2{
+    width: 25px;
+    height: 25px;
+}
+.location-box2 a{
+    display: flex;
+    align-items: center;
+}
+.footer-img3{
+    width: 25px;
+    height: 25px;
+}
+.call-box a{
+    display: flex;
+    align-items: center;
+}
+.footer-img4{
+    width: 25px;
+    height: 25px;
+}
+.mesenger-box a{
+    display: flex;
+    align-items: center;
+}
+.footer-desc-box,.footer-desc-box a{
+    color: #fff;
+}
+.footer-img5{
+    width: 25px;
+    height: 25px;
+}
+.hour-box{
+    display: flex;
+    align-items: center;
+}
+.push p{
+    margin-left: 20px;
+}
+.push{
+    margin-top: 20px;
+}
+.footer-header-title{
+    padding: 70px 0px 20px 0px;
+}
+.footer-iframe1{
+    width: 374.400px;
+    height: 400px;
+    border-radius: 30px;
+}
+.footer-iframe2{
+    width: 374.400px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 30px;
+}
+.iframe-location-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: end;
+    align-items: start;
+    margin-top: 80px;
+}
+.footer-desc-boxs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.kurs-box-btn, .kurs-box-media-btn{
+    color: #fff;
+    font-weight: 400;
+}
+.kurs-box-media-btn{
+    margin-left: 100px;
+}
+.hour-desc2{
+    margin-top: 15px;
+}
+
+.box-border{
+    border: 1px solid #fff;
+    width: 1200px;
+    margin-top: 30px;
+    margin-inline: auto;
+    opacity: 0.2;
+}
+.footer-footer-box{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+.fixed-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 48px;
+    height: 48px;
+    background-color: #ffb52d;
+    border: 1px solid;
+    color: #000;
+    border-radius: 50%;
+    transition: 1.2s ease;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-toggle{
+    cursor: pointer;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 20px 0;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown-menu li{
+    flex-wrap: nowrap;
+}
+.btn-scr{
+    margin-right: 120px !important;
 }
