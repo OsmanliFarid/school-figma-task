@@ -48,6 +48,14 @@
 .links a:hover::after{
     width: 100%;
 }
+.elaqe-btn-boxs{
+    display: flex;
+    align-items: center;
+    background-color: #FCAE1E;
+    padding: 5px 20px;
+    gap: 5px;
+    border-radius: 30px;
+}
 .az-count{
     display: flex;
     justify-content: center;
@@ -118,14 +126,6 @@
     height: 30.44px;
     display: inline-block;
     margin-left: 20px;
-}
-.elaqe-btn-boxs{
-    display: flex;
-    align-items: center;
-    background-color: #FCAE1E;
-    padding: 5px 20px;
-    gap: 5px;
-    border-radius: 30px;
 }
 .call-title{
     color: #fff !important;
@@ -712,7 +712,6 @@
 }
 .footer-background{
     background-color: #FCAE1E;
-    height: 630px;
     margin-top: 70px;
 }
 .footer-img{
@@ -855,5 +854,167 @@ html {
     flex-wrap: nowrap;
 }
 .btn-scr{
-    margin-right: 120px !important;
+    margin-right: 120px;
+}
+.bars-img{
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+@media (max-width:576px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .links a{
+        display: none;
+    }
+    .elaqe-btn-boxs{
+        display: none;
+    }
+    .links div{
+        display: none;
+    }
+    .bars-img{
+        display: block !important;
+        cursor: pointer;
+    }
+    .yaratmaga-boxs{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .background-img{
+        max-width: 380px;
+        height: 400px;
+        text-align: center;
+        margin-right: 200px;
+        margin-top: 80px;
+        margin-inline: auto;
+    }
+    .background-navbar-img{
+        width: 300px;
+    }
+    .jetschool-cart-boxs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .jetschool-cart-box,.jetschool-cart-box2,.jetschool-cart-box3,.jetschool-cart-box4{
+        width: 376px;
+        height: 300px;
+    }
+    .date-boxs,.date-boxs2,.date-boxs3,.date-boxs4{
+        width: 320px;
+    }
+    .jetcshool-title{
+        text-align: center;
+        font-size: 40px;
+        margin-top: 15px;
+    }
+    .yaratamaga-basla-etiket{
+        text-align: center;
+    }
+    .jetcshool-navbar-desc{
+        font-size: 16px;
+        width: 380px;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .jetcshool-navbar-desc2{
+        font-size: 14px;
+        width: 380px;
+        margin-inline: auto;
+        text-align: center;
+    }
+    .muraciet-btn{
+        margin-inline: auto;
+        display: inline-block;
+        text-align: center;
+    }
+    .muraciet-btn-box{
+        display: flex;
+        margin-top: 30px;
+    }
+    .jetschool-main-title{
+        text-align: center;
+        font-size: 24px;
+        width: 300px;
+        margin-top: 100px;
+    }
+    .jetschool-main-title2{
+        width: 300px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .jetschool-cart-boxs{
+        justify-items: center;
+    }
+    .main-differece-title{
+        font-size: 20px;
+    }
+    .main-difference-desc-title{
+        width: 300px;
+        margin-top: 40px;
+        line-height: 23px;
+        margin-inline: auto;
+    }
+    .difference-box,.difference-box2,.difference-box3,.difference-box4{
+        width: 380px;
+        height: 250px;
+    }
+    .difference-box-desc,.difference-box-desc2,.difference-box-desc3,.difference-box-desc4{
+        width: 280px;
+        margin-top: 0px;
+    }
+    .student-lahiye-title{
+        font-size: 26px;
+    }
+    .student-lahiye-desc{
+        width: 400px;
+    }
+    .student-lahiye-boxs{
+         grid-template-columns: repeat(1,1fr);
+         justify-items: center;
+         row-gap: 30px;
+    }
+    .main-lesson-title{
+        font-size: 28px;
+    }
+    .main-lesson-desc{
+        width: 400px;
+    }
+    .main-lesson-boxs{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        row-gap: 30px;
+    }
+    .footer-desc-boxs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer-header-title{
+        text-align: center;
+    }
+    .iframe-location-box{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 30px;
+        margin-inline: auto;
+    }
+    .kurslar-box{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .footer-iframe2{
+        margin-left: 0px;
+    }
+    .fixed-box{
+        display: none;
+    }
+    .footer-footer-box{
+        padding-bottom: 30px;
+        letter-spacing: 0.5px;
+    }
+    .difference-boxs{
+        justify-items: center;
+    }
 }
