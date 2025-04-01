@@ -971,7 +971,7 @@ html {
         font-size: 26px;
     }
     .student-lahiye-desc{
-        width: 400px;
+        width: 360px;
     }
     .student-lahiye-boxs{
          grid-template-columns: repeat(1,1fr);
