@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family: manrope;
     list-style-type: none;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: manrope;
