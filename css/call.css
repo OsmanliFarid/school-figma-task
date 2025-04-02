@@ -60,6 +60,25 @@ html,body{
     height: 30px;
     border-radius: 20px;
 }
+.fixed-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    width: 48px;
+    height: 48px;
+    background-color: #ffb52d;
+    border: 1px solid;
+    color: #000;
+    border-radius: 50%;
+    transition: 1.2s ease;
+}
+.fixed-box2 img{
+    width: 20px;
+    height: 20px;
+}
 .img-call{
     width: 30.44px;
     height: 30.44px;
@@ -455,6 +474,9 @@ html {
     .age-box{
         width: 300px;
         margin-left: 50px;
+    }
+    .fixed-box2{
+        display: none;
     }
     .language-box{
         width: 300px;

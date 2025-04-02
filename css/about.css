@@ -17,6 +17,25 @@ html,body{
     width: 1200px;
     margin: auto;
 }
+.fixed-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    width: 48px;
+    height: 48px;
+    background-color: #ffb52d;
+    border: 1px solid;
+    color: #000;
+    border-radius: 50%;
+    transition: 1.2s ease;
+}
+.fixed-box2 img{
+    width: 20px;
+    height: 20px;
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -756,6 +775,9 @@ html {
     }
     .footer-header-title{
         text-align: center;
+    }
+    .fixed-box2{
+        display: none;
     }
     .iframe-location-box{
         grid-template-columns: repeat(1,1fr);
