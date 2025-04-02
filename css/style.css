@@ -51,14 +51,6 @@ html,body{
 .links a:hover::after{
     width: 100%;
 }
-.elaqe-btn-boxs{
-    display: flex;
-    align-items: center;
-    background-color: #FCAE1E;
-    padding: 5px 20px;
-    gap: 5px;
-    border-radius: 30px;
-}
 .az-count{
     display: flex;
     justify-content: center;
@@ -163,10 +155,31 @@ html,body{
     width: 30.44px;
     height: 30.44px;
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 0px;
+    transition: 1.2s;
 }
-.call-title{
+.call-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCAE1E;
+    border: 1px solid #FCAE1E;
+    padding: 5px 30px;
+    gap: 5px;
+    border-radius: 30px;
+    transition: 1.2s;
     color: #fff !important;
+}
+.call-title:hover{
+    background-color: #fff;
+    color: #FCAE1E !important;
+}
+.call-title:hover .img-call {
+    content: url('../images/call2-icon.svg');
+    transition: 1.2s;
+}
+.call-title::after{
+    display: none;
 }
 .jetschool-main-title{
     color: #1c1c1c;
