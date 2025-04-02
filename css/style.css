@@ -882,6 +882,25 @@ html {
     border-radius: 50%;
     transition: 1.2s ease;
 }
+.fixed-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    width: 48px;
+    height: 48px;
+    background-color: #ffb52d;
+    border: 1px solid;
+    color: #000;
+    border-radius: 50%;
+    transition: 1.2s ease;
+}
+.fixed-box2 img{
+    width: 20px;
+    height: 20px;
+}
 .dropdown{
     position: relative;
 }
@@ -918,6 +937,9 @@ html {
     }
     .container{
         max-width: 100%;
+    }
+    .fixed-box2{
+        display: none;
     }
     .links a{
         display: none;
