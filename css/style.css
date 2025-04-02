@@ -905,7 +905,7 @@ html {
     flex-wrap: nowrap;
 }
 .btn-scr{
-    margin-right: 120px;
+    margin-right: 120px !important;
 }
 .bars-img{
     width: 50px;
